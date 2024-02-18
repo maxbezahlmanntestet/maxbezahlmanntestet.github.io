@@ -1,0 +1,426 @@
+html,
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #2e2e2e;
+	background-repeat: no-repeat;
+	z-index: -2;
+}
+
+.dropdown-content {
+	top: 0px;
+	width: 100%;
+    height: 16vw;
+    overflow: hidden;
+    position: fixed;
+	z-index: 4;
+	display: block;
+}
+
+.dropdown-content:after {
+    content: '';
+    background: #ffe494;
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(8deg);
+	margin-top: -10.8%;
+	margin-left: -5%;
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3), 0 0 20px 3px rgba(0, 0, 0, 0.25);
+}
+
+.dropdownlinks{
+	position: absolute;
+	top: 23%;
+	left: 41.5%;
+	z-index: 5;
+	font-size: 5vw;
+	font-family: Bebas Neue;
+	width: 100%;
+	transform: rotate(4deg);
+}
+
+.dropdownlinks a {
+	text-decoration: none;
+	margin-right: -3%;
+	padding: 0.8% 2% 0.8% 2%;
+}
+
+.dropdownlink1 {
+	color: #2e2e2e;
+}
+
+.dropdownlink2 {
+	color: #21bf13;
+}
+
+.dropdownlink3 {
+	color: #2e2e2e;
+}
+
+.dropdownlink4 {
+	color: #2e2e2e;
+}
+
+.dropdownlinks a:hover {
+	color: #21bf13;
+}
+
+
+
+.topaccent {
+	margin-top: 0px;
+	width: 100%;
+    height: 32vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.topaccent:after {
+    content: '';
+    background: #21bf13;
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(15deg);
+	margin-top: -22.8%;
+	margin-left: -5%;
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3), 0 0 20px 3px rgba(0, 0, 0, 0.25);
+	z-index: 1;
+}
+
+.header{
+	position: relative;
+	margin-top: -16%;
+	padding-left: 10px;
+	color: #e5e5e5;
+	font-size: 10vw;
+	font-family: Bebas Neue;
+}
+
+.mapcontainer{
+	position: relative;
+	width: 100%;
+	height: 66.67%;
+	margin-top: 3%;
+}
+
+.sideboard{
+	position: absolute;
+	height: 100%;
+	width: 33.33%;
+	background-color: #e5e5e5;
+	right: 0px;
+	margin-top: 2.5%;
+	transform: skewY(8deg);
+}
+
+.location1{
+	position: relative;
+	width: 100%;
+	height: 69.6%;
+	background-color: #e5e5e5;
+	color:#2e2e2e;
+}
+
+.location1header{
+	position: realtive;
+	font-family: Bebas Neue;
+	font-size: 2.5vw;
+	padding-left: 10%;
+	padding-top: 5%;
+	width: 90%;
+	height: 11%;
+	background-color: #21bf13;
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.4);
+	top: 0px;
+}
+
+.location1coords{
+	transform: skewY(-8deg);
+	font-family: Bebas Neue;
+	font-size: 1vw;
+	margin-left: 2.75%;
+	display: block;
+	margin-top:3%;
+}
+
+.location1content{
+	transform: skewY(-8deg);
+	font-family: Bebas Neue;
+	font-size: 1vw;
+	margin-left: 2.75%;
+	display: block;
+	margin-top: 4%;
+	overflow: hidden;
+	margin-right: 2.75%;
+}
+
+
+.location2{
+	position: relative;
+	width: 100%;
+	height: 9.2%;
+	background-color: #e5e5e5;
+	color:#2e2e2e;
+	border-top: 0.4vw solid #2e2e2e;
+}
+
+.location2header{
+	position: realtive;
+	font-family: Bebas Neue;
+	font-size: 2.5vw;
+	padding-left: 10%;
+	padding-top: 5%;
+	width: 90%;
+	height: 11%;
+	background-color:#e5e5e5;
+	box-shadow: ;
+	top: 0px;
+}
+
+.location2coords{
+	transform: skewY(-8deg);
+	font-family: Bebas Neue;
+	font-size: 1vw;
+	margin-left: 2.75%;
+	display: none;
+	margin-top: 1%;
+}
+
+.location2content{
+	transform: skewY(-8deg);
+	font-family: Bebas Neue;
+	font-size: 1vw;
+	margin-left: 2.75%;
+	display: none;
+	margin-top: 3%;
+	overflow: hidden;
+	margin-right: 2.75%;
+}
+
+
+.location3{
+	position: relative;
+	width: 100%;
+	height: 9.2%;
+	background-color: #e5e5e5;
+	color:#2e2e2e;
+	border-top: 0.4vw solid #2e2e2e;
+}
+
+.location3header{
+	position: realtive;
+	font-family: Bebas Neue;
+	font-size: 2.5vw;
+	padding-left: 10%;
+	padding-top: 5%;
+	width: 90%;
+	height: 11%;
+	background-color:#e5e5e5;
+	box-shadow: ;
+	top: 0px;
+	z-index:3;
+}
+
+.location3coords{
+	transform: skewY(-8deg);
+	font-family: Bebas Neue;
+	font-size: 1vw;
+	margin-left: 2.75%;
+	display: none;
+	margin-top: 3%;
+}
+
+.location3content{
+	transform: skewY(-8deg);
+	font-family: Bebas Neue;
+	font-size: 1vw;
+	margin-left: 2.75%;
+	display:none;
+	margin-top: 4%;
+	overflow: hidden;
+	margin-right: 2.75%;
+}
+
+.location4{
+	position: relative;
+	width: 100%;
+	height: 9.2%;
+	background-color: #e5e5e5;
+	color:#2e2e2e;
+	border-top: 0.4vw solid #2e2e2e;
+}
+
+.location4header{
+	position: realtive;
+	font-family: Bebas Neue;
+	font-size: 2.5vw;
+	padding-left: 10%;
+	padding-top: 5%;
+	width: 90%;
+	height: 11%;
+	background-color:#e5e5e5;
+	box-shadow: ;
+	top: 0px;
+	z-index:3;
+}
+
+.location4coords{
+	transform: skewY(-8deg);
+	font-family: Bebas Neue;
+	font-size: 1vw;
+	margin-left: 2.75%;
+	display: none;
+	margin-top: 1%;
+}
+
+.location4content{
+	transform: skewY(-8deg);
+	font-family: Bebas Neue;
+	font-size: 1vw;
+	margin-left: 2.75%;
+	display: none;
+	margin-top: 3%;
+	overflow: hidden;
+	margin-right: 2.75%;
+}
+
+
+.mapshadow{
+	position: relative;
+	margin-top: 0%;
+	width: 66.67%;
+	height: 66.67%;
+	box-shadow: -15px 15px 15px 0px #2e2e2e inset;
+}
+
+.map{
+	position: relative;
+	margin-top: 0%;
+	width: 100%;
+	z-index: -1;
+}
+	
+.marker1{
+	position: absolute;
+	height: 6%;
+	margin-top: 64.5%;
+	margin-left: 77.2%;
+	filter: ;
+}	
+
+.marker1:hover{
+	filter: invert(64%) sepia(55%) saturate(5036%) hue-rotate(79deg) brightness(132%) contrast(91%);
+}
+
+.marker2{
+	position: absolute;
+	height: 6%;
+	margin-top: 56.7%;
+	margin-left: 24.2%;
+	filter: ;
+}	
+
+.marker2:hover{
+	filter: invert(64%) sepia(55%) saturate(5036%) hue-rotate(79deg) brightness(132%) contrast(91%);
+}
+
+.marker3{
+	position: absolute;
+	height: 6%;
+	margin-top: 21%;
+	margin-left: 63.8%;
+	filter: ;
+}	
+
+.marker3:hover{
+	filter: invert(64%) sepia(55%) saturate(5036%) hue-rotate(79deg) brightness(132%) contrast(91%);
+}
+
+.marker4{
+	position: absolute;
+	height: 6%;
+	margin-top: 7%;
+	margin-left: 12.6%;
+	filter: ;
+}	
+
+.marker4:hover{
+	filter: invert(64%) sepia(55%) saturate(5036%) hue-rotate(79deg) brightness(132%) contrast(91%);
+}
+
+.afterbuttons {
+	position: absolute;
+	width: 33.33%;
+	height: 28%;
+	z-index: 3;
+	right: 0%;
+	bottom: -107.5%;
+	transform: skewY(8deg);
+}
+
+.unibutton {
+	width: 100%;
+	height: 50%;
+}
+
+.wasserbutton {
+	width: 100%;
+	height: 50%;
+}
+
+.footerblock {
+    margin-top: -15%;
+	width: 100%;
+    height: 20vw;
+    overflow: hidden;
+    position: relative;
+}
+.footerblock:after {
+    content: '';
+    background: #ffe494;
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(8deg);
+	margin-top: 13%;
+	margin-left: -5%;
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3), 0 0 20px 3px rgba(0, 0, 0, 0.25);
+}
+
+.footertextbox{
+	font-family: Arial;
+	box-sizing: border-box;
+	position: absolute;
+	margin-top: 0%;
+	height: 85%;
+	width: 100%;
+	padding: 1vw;
+	font-size: 1.75vw;
+	color: #2e2e2e;
+	z-index: 2;
+}
+.footertext1{
+	position: absolute;
+	bottom: -14%;
+}
+
+.footerlink{
+	color: #2e2e2e;
+	text-decoration: none;
+}
+
+.footersocial{
+	position: absolute;
+	margin-top:8%;
+	height: 100%;
+}
+
+.sociallink {
+	height: 35%;
+	margin-right: 2vw;
+}

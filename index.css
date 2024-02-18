@@ -1,0 +1,360 @@
+html,
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #e5e5e5;
+	background-repeat: no-repeat;
+	z-index: -2;
+}
+
+.dropdown-content {
+	top: 0px;
+	width: 100%;
+    height: 16vw;
+    overflow: hidden;
+    position: fixed;
+	z-index: 1;
+	display: none;
+}
+
+.dropdown-content:after {
+    content: '';
+    background: #ffe494;
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(8deg);
+	margin-top: -10.8%;
+	margin-left: -5%;
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3), 0 0 20px 3px rgba(0, 0, 0, 0.25);
+}
+
+.dropdownlinks{
+	position: absolute;
+	top: 23%;
+	left: 41.5%;
+	z-index: 2;
+	font-size: 5vw;
+	font-family: Bebas Neue;
+	width: 100%;
+	transform: rotate(4deg);
+}
+
+.dropdownlinks a {
+	text-decoration: none;
+	margin-right: -3%;
+	padding: 0.8% 2% 0.8% 2%;
+}
+
+.dropdownlink1 {
+	color: #2e2e2e;
+}
+
+.dropdownlink2 {
+	color: #2e2e2e;
+}
+
+.dropdownlink3 {
+	color: #2e2e2e;
+}
+
+.dropdownlink4 {
+	color: #21bf13;
+}
+
+.dropdownlinks a:hover {
+	color: #21bf13;
+}
+
+
+
+.logo {
+	position: relative;
+	display: block;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+
+
+.firstblock {
+	position: relative;
+	background-color: #21bf13;
+	width: 100%;
+	height: 48vw;
+	margin-top: 5%;
+	transform: skewY(15deg);
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3), 0 0 20px 3px rgba(0, 0, 0, 0.25);
+	padding-top: 14.8%;
+}
+
+.secondblock {
+	position: absolute;
+	background-color: #2e2e2e;
+	width: 100%;
+	height: 47vw;
+	margin-top: -7.4%;
+	transform: skewY(-7deg);
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3), 0 0 20px 3px rgba(0, 0, 0, 0.25);
+}
+
+.aboutheader{
+	position: absolute;
+	margin-top: 3.5%;
+	padding-left: 10px;
+	color: #e5e5e5;
+	transform: skewY(-8deg);
+	font-size: 10vw;
+	font-family: Bebas Neue;
+}
+
+.aboutsection {
+	font-family: Arial;
+	box-sizing: border-box;
+	position: absolute;
+	margin-top: 10%;
+	transform: skewY(-8deg);
+	color: #e5e5e5;
+	height: 75%;
+	width: 100%;
+	padding: 10px;
+	font-size: 2.5vw;
+}
+.abouttext{
+	position: absolute;
+	width: 47%;
+	text-align: justify;
+}
+
+.aboutimage{
+	position: absolute;
+	right: 10px;
+	margin-top:4px;
+	width: 47%;
+	height: 90%;
+}
+
+
+
+.spacing {
+	margin-top: 0%;
+	width: 100%;
+    height: 60vw;
+	position: relative;
+}
+
+.menuheader{
+	position: absolute;
+	margin-top: -5%;
+	padding-left: 10px;
+	color: #2e2e2e;
+	font-size: 10vw;
+	font-family: Bebas Neue;
+}
+
+.menusection{
+	font-family: Arial;
+	box-sizing: border-box;
+	position: absolute;
+	margin-top: 7%;
+	height: 85%;
+	width: 100%;
+	padding: 10px;
+	font-size: 2.5vw;
+	overflow: hidden;
+}
+
+.menutext{
+	position: absolute;
+	width: 30%;
+	color: #2e2e2e;
+}
+.menuimage{
+	position: absolute;
+	right: 10px;
+	margin-top:8%;
+	width: 48%;
+	height: 84%;
+}
+
+.menuimage2{
+	position: absolute;
+	left: 10px;
+	margin-top:8%;
+	width: 48%;
+	height: 57%;
+}
+
+
+
+.thirdblock {
+	position: relative;
+	background-color: #21bf13;
+	width: 100%;
+	height: 48vw;
+	margin-top: 0%;
+	transform: skewY(15deg);
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3), 0 0 20px 3px rgba(0, 0, 0, 0.25);
+	padding-top: 14.8%;
+}
+
+.fourthblock {
+	position: absolute;
+	background-color: #2e2e2e;
+	width: 100%;
+	height: 47vw;
+	margin-top: -7.4%;
+	transform: skewY(-7deg);
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3), 0 0 20px 3px rgba(0, 0, 0, 0.25);
+}
+
+.calendarheader{
+	position: absolute;
+	margin-top: 2%;
+	padding-left: 10px;
+	color: #e5e5e5;
+	transform: skewY(-8deg);
+	font-size: 10vw;
+	font-family: Bebas Neue;
+	height: 20%;
+}
+
+.calendarsection {
+	font-family: Arial;
+	box-sizing: border-box;
+	position: absolute;
+	margin-top: 0px;
+	transform: skewY(-8deg);
+	height: 75%;
+	width: 100%;
+	padding: 10px;
+	padding-top: 9%;
+	font-size: 1.75vw;
+}
+
+.openingtimes{
+	position: absolute;
+	right: 2%;
+	table-layout: fixed;
+	width: 100vw;
+	padding: 0.5vw 1.25vw 0.2vw 1.25vw;
+}
+
+.header{
+	padding-bottom: 0.2vw;
+}
+
+th {
+	color: #e5e5e5;
+}
+
+.open{
+	background-color: #21bf13;
+}
+
+tr:hover{
+	opacity: 0.5;
+}
+
+
+
+.secondspacing {
+	margin-top: 0%;
+	width: 100%;
+    height: 55vw;
+	position: relative;
+}
+
+.teamheader {
+	position: absolute;
+	margin-top: -3%;
+	padding-left: 10px;
+	color: #2e2e2e;
+	font-size: 10vw;
+	font-family: Bebas Neue;
+}
+
+.teamsection {
+	font-family: Arial;
+	box-sizing: border-box;
+	position: absolute;
+	margin-top: 10%;
+	height: 85%;
+	width: 100%;
+	padding: 10px;
+	font-size: 2.5vw;
+	color: #2e2e2e;
+}
+
+.teamtext{
+	position: absolute;
+	width: 47%;
+	text-align: justify;
+}
+
+.teamimage{
+	position: absolute;
+	right: 10px;
+	margin-top: 6%;
+	width: 47%;
+	height: 100%;
+}
+
+
+
+.footerblock {
+    margin-top: 0%;
+	width: 100%;
+    height: 20vw;
+    overflow: hidden;
+    position: relative;
+}
+.footerblock:after {
+    content: '';
+    background: #ffe494;
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(8deg);
+	margin-top: 13%;
+	margin-left: -5%;
+	box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3), 0 0 20px 3px rgba(0, 0, 0, 0.25);
+}
+
+.footertextbox{
+	font-family: Arial;
+	box-sizing: border-box;
+	position: absolute;
+	margin-top: 0%;
+	height: 85%;
+	width: 100%;
+	padding: 1vw;
+	font-size: 1.75vw;
+	color: #2e2e2e;
+	z-index: 2;
+}
+.footertext1{
+	position: absolute;
+	bottom: -14%;
+}
+
+.footerlink{
+	color: #2e2e2e;
+	text-decoration: none;
+}
+
+.footersocial{
+	position: absolute;
+	margin-top:8%;
+	height: 100%;
+}
+
+.sociallink {
+	height: 35%;
+	margin-right: 2vw;
+}
